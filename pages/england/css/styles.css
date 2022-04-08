@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap");
+.header {
+  background: url("http://img3.arrivo.ru/cfcd/2f/3595/1/tea_&_cakes-garlicandsapphire.com.jpg") no-repeat;
+  background-position: 30% 45%;
+  background-size: 100%;
+}
+
+.header_menu {
+  height: 60px;
+  padding: 20px 10px;
+  width: 100%;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.header_menu_link {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.header_menu_link:hover {
+  color: yellow;
+  -webkit-transition: 1.5 all;
+  transition: 1.5 all;
+}
+
+.header_roof {
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header_roof_text {
+  margin: 0;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.header_roof_cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.header_roof_cont_text {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  color: white;
+}
+
+.header_roof_cont_sign {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  color: white;
+  font-style: italic;
+}
+
+.out {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+.main {
+  padding: 30px;
+}
+
+.main_culture {
+  background-color: white;
+  padding-bottom: 30px;
+}
+
+.main_culture_head {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  color: black;
+  margin-bottom: 35px;
+}
+
+.main_culture_cont {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.main_culture_cont_img {
+  height: 205px;
+  width: 266px;
+  float: right;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.main_literature {
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.main_literature_head {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  color: black;
+  margin-bottom: 35px;
+}
+
+.main_literature_cont {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.main_literature_cont_img {
+  height: 200px;
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.main_music {
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.main_music_head {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  color: black;
+  margin-bottom: 35px;
+}
+
+.main_music_cont {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.main_music_cont_img {
+  height: 210px;
+  width: 270px;
+  float: right;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.main_clothes {
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.main_clothes_head {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  color: black;
+  margin-bottom: 35px;
+}
+
+.main_clothes_cont {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.main_clothes_cont_img {
+  height: 230px;
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer_reference {
+  padding: 1px 0 50px 0;
+}
+
+.footer_reference_head {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+.footer_reference_cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer_reference_cont_ref {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer_reference_cont_ref_viki {
+  font-size: 20px;
+  color: white;
+}
+
+.footer_reference_cont_ref_advan {
+  font-size: 20px;
+  color: white;
+}
+
+.footer_reference_cont_git_hub_img {
+  height: 100px;
+  width: 150px;
+}
+/*# sourceMappingURL=styles.css.map */
